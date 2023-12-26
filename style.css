@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img[alt="vagmr img"] {
+    display: block;
+    height: 100;
+    width: 100;
+    clip-path: circle(50% at 50% 50%);
+}
+
+ul {
+    margin-bottom: 20px;
+}
+
+ul li {
+    list-style: circle;
+    margin-left: 30px;
+}
+
+.list {
+    margin-left: 20px;
+}
+
+.list dt {
+    font-weight: bold;
+    display: inline;
+}
+
+.list dd {
+    margin-bottom: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: 5px;
+}
+
+.intable {
+    margin-right: 5px;
+    width: 200px;
+}
+
+
+.intable td {
+    border: 3px solid black;
+    padding: 5px;
+}
